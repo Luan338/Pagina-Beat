@@ -54,3 +54,100 @@ h1{
 .img-life{
     width: 390px;
 }
+
+main{
+    width: 100%;
+    background-color: #FFA185;
+}
+
+.container-main{
+    max-width: 1340px;                                                                                        
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box{
+    width: 100%;
+    padding: 40px;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.paragraph{
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.box-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-img2{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-apresentation{
+    width: 48%;
+}
+
+.container-link{
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    background-color: #129799;
+}
+
+.container-footer{
+    max-width: 1340px;                                                                                        
+    width: 90%;
+    margin: 0 auto;
+}
+
+.group-footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-redes{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-redes{
+    cursor: pointer;
+    width: 10%;
+
+}
+
+.nav-footer{
+    width: 50%;
+}
+
+.box-list-footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
