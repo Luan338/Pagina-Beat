@@ -56,14 +56,22 @@ header{
 
 h1{
     color: white;
-    font-size: 3rem;
+    font-size: 5vw;
     text-transform: capitalize;
 }
 
 .img-life{
-    width: 390px;
+    width: 43%;
 }
+@media(min-width: 1378px){
+    h1{
+        font-size: 2rem;
+    }
 
+    .img-life{
+        width: 220px;
+    }
+}
 main{
     width: 100%;
     background-color: #FFA185;
